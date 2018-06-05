@@ -27,7 +27,7 @@
 1. discovery sidecar application
     - Eureka에 등록된 serviceId(NODE-SERVICE)로 사용 가능
 ![discovery-node-server](./document/images/discovery-node-server.png)
-    - 예제코드
+    - 내부 서비스에서 node sever를 접근하는 예제 코드
 ![discovery-sample-code](./document/images/discovery-sample-code.png)
 
 2. discovery another application
