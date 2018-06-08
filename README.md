@@ -17,7 +17,8 @@
     간단한 express 서버가 8008포트로 동작합니다.
 2. sidecar 설치 및 실행
     ```bash
-    > mvn clean install
+    > cd sidecar
+    > mvnw clean package
     > java -jar ./target/sidecar-0.0.1.SNAPSHOT.jar
     ```
     sidecar 예제 프로그램이 8009포트로 동작합니다.

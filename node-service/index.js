@@ -1,14 +1,15 @@
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
+const SERVER_PORT = 8008
 
-app.get('/hello', function (req, res) {
+app.get('/hello', (req, res) => {
   res.send('hello world')
 })
 
-app.get('/status', function (req, res) {
+app.get('/status', (req, res) => {
   res.send({status: "UP"})
 })
 
-app.listen(8008, function() {
-  console.log("Server Start!")
+app.listen(8008, () => {
+  console.log("Server Start is running at " + SERVER_PORT);
 })
