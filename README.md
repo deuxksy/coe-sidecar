@@ -18,7 +18,7 @@
 2. sidecar 설치 및 실행
     ```bash
     > cd sidecar
-    > mvnw clean package
+    > ./mvnw clean package
     > java -jar ./target/sidecar-0.0.1.SNAPSHOT.jar
     ```
     sidecar 예제 프로그램이 8009포트로 동작합니다.
